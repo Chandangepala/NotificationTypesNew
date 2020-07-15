@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         //bitmap for large icon
         Bitmap  bitIcon = ((BitmapDrawable) (getResources().getDrawable(R.drawable.logo))).getBitmap();
-        //something  changed
+        //something  changed now
         Intent iNotify = new Intent(this, MainActivity.class);
         //Flag to clear previous activity
         iNotify.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
